@@ -1,14 +1,37 @@
-# Project
+# Whitepaper for "Microsoft Defender for SQL"
+<hr style="height:1px; background-color:#c0c0c0;">
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+本ドキュメントでは、データ基盤、データベースで求められるセキュリティについて解説し、Microsoft Defender for SQL を使った効果的なセキュリティ対策について紹介しています。
+ここで取り上げた製品・サービスの詳細および最新情報は、[製品ドキュメント](https://docs.microsoft.com/ja-jp/azure/azure-sql/database/azure-defender-for-sql)をご参照ください。
+なお、本ドキュメントの作成には、[株式会社アクアシステムズ様](https://www.aqua-systems.co.jp/)にご協力をいただきました。
 
-As the maintainer of this project, please make a few updates:
+<br>
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+### [第１章 データ基盤におけるデータセキュリティの重要性](/chapter01.md)
+<hr style="height:1px; background-color:#c0c0c0;">
+
+大量のデータの利活用を前提にした DX の推進が求められる時代。データ利活用にはセキュリティを担保することも要求されます。データ セキュリティの全体像を紹介します。
+<br>
+
+### [第２章 データ基盤でのセキュリティ要件](/chapter02.md)
+<hr style="height:1px; background-color:#c0c0c0;">
+
+重要データを守るために、データ基盤、データベースにおけるセキュリティ要件についてまとめます。
+認証及びアクセス制御、通信やデータの暗号化といった防御対策に加えて、防御をすり抜ける、あるいは、正当なアクセス権による正常とみなされる操作の中にあるリスクに対しての検知対策の重要性について解説します。
+<br>
+
+### [第３章 Microsoft Defender for SQL で実現するデータベースセキュリティ](/chapter03.md)
+<hr style="height:1px; background-color:#c0c0c0;">
+
+セキュリティの中でもデータ基盤レイヤでの対策を理解した要員、体制を維持することは、時間もコストもかかり、ハードルが高いのが現実です。
+Microsoft Defender for SQL によって効果的なデータ基盤のセキュリティを効率的に実現していく方法を紹介します。
+<br>
+
+### [まとめ](/chapterfin.md)
+<hr style="height:1px; background-color:#c0c0c0;">
+
+<br>
+<br>
 
 ## Contributing
 
