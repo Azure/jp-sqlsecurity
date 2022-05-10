@@ -1,48 +1,3 @@
-﻿<!-- 表の基本スタイル -->
-<style>
-table[border="1"]{
-	border-spacing:0;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border: none;
-  width: 800px; /* 表サイズ */
-}
-
-table[border="1"] td,table[border="1"] th{
-	padding:5px 8px;
-	background:#FFF;
-	border: none;
-	border-top: 1px solid #999;
-	border-left: 1px solid #999;
-}
-
-table[border="1"] th{
-	background:#f9f9f9;
-}
-table[border="1"] tr:last-child th,table[border="1"] tr:last-child td{
-    border-bottom: 1px solid #999;
-}
-table[border="1"] th:last-child,table[border="1"] td:last-child{
-    border-right: 1px solid #999;
-}
-
-.tbl{
-    width: 800px;
-}
-
-.listtbl,.listtbl td,.listtbl th{
-    border-right: none !important;
-    border-left: none !important;
-}
-
-.memotbl,.memotbl td,.memotbl th{
-    border-right: none !important;
-    border-left: none !important;
-}
-
-</style>
-<!-------------------->
-
 # 第１章 データ基盤におけるデータ セキュリティの重要性
 <hr style="height:1px; background-color:#c0c0c0;">
 大量のデータの利活用を前提にした DX の推進が求められる時代。データ利活用にはセキュリティを担保することも要求され、多層防御の中で、データの格納先であり、データの源泉であるデータ基盤でのセキュリティの重要性が高まっています。
@@ -150,7 +105,7 @@ table[border="1"] th:last-child,table[border="1"] td:last-child{
 
 ## 2. クラウド サービスでのセキュリティ
 
-####Shared Responsibility の考え方
+#### Shared Responsibility の考え方
 今や広く活用が進む、クラウド サービス。クラウド サービスでのセキュリティについて、Shared Responsibility の考え方は広く認識されるようになっています。
 
 クラウド サービスとして提供される環境でのデータ資産に対するセキュリティについても、基本的な考え方である Shared Responsibility を確認し、データ基盤におけるデータ オーナーとしての責任を理解し対策を考えることが重要と言えます。
