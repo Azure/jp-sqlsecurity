@@ -1,48 +1,3 @@
-﻿<!-- 表の基本スタイル -->
-<style>
-table[border="1"]{
-	border-spacing:0;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	border: none;
-  width: 800px; /* 表サイズ */
-}
-
-table[border="1"] td,table[border="1"] th{
-	padding:5px 8px;
-	background:#FFF;
-	border: none;
-	border-top: 1px solid #999;
-	border-left: 1px solid #999;
-}
-
-table[border="1"] th{
-	background:#f9f9f9;
-}
-table[border="1"] tr:last-child th,table[border="1"] tr:last-child td{
-    border-bottom: 1px solid #999;
-}
-table[border="1"] th:last-child,table[border="1"] td:last-child{
-    border-right: 1px solid #999;
-}
-
-.tbl{
-    width: 800px;
-}
-
-.listtbl,.listtbl td,.listtbl th{
-    border-right: none !important;
-    border-left: none !important;
-}
-
-.memotbl,.memotbl td,.memotbl th{
-    border-right: none !important;
-    border-left: none !important;
-}
-
-</style>
-<!-------------------->
-
 # 第３章 Microsoft Defender for SQL で実現するデータベース セキュリティ
 <hr style="height:1px; background-color:#c0c0c0;">
 
@@ -579,12 +534,3 @@ aaa.xxx.yyy.zzz
 dbnusername
 [ additional_information_s ]
 <login_information><error_code>18456</error_code><error_state>8</error_state></login_information>
-
-
-
-
-
-
-
-
-
