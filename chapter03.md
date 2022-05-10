@@ -343,11 +343,11 @@ SQL 脆弱性評価のルールは Microsoft のベスト プラクティスに�
 
 Azure portal で 脆弱性評価 を設定・構成します。
 
-##### 2.1.1. Azure SQL Database、SQL Managed Instance データベース、または Azure Synapse の特定のリソースにアクセスし、[ セキュリティ ] > [ Microsoft Defender for Cloud ] をクリックして開きます。**
+##### 2.1.1. Azure SQL Database、SQL Managed Instance データベース、または Azure Synapse の特定のリソースにアクセスし、[ セキュリティ ] > [ Microsoft Defender for Cloud ] をクリックして開きます。
 
 <p><img alt="脆弱性評価1" src="/assets/IMG020_VulnerabilityCheck1.png"></p>
 
-##### 2.1.2. [ Microsoft Defender for SQL ] にある [ 構成 ] をクリックし、サーバー全体またはマネージド インスタンスの Microsoft Defender for SQL 設定画面を開きます。**
+##### 2.1.2. [ Microsoft Defender for SQL ] にある [ 構成 ] をクリックし、サーバー全体またはマネージド インスタンスの Microsoft Defender for SQL 設定画面を開きます。
 
 <p><img alt="脆弱性評価2" src="/assets/IMG021_VulnerabilityCheck2.png"></p>
 
