@@ -1,4 +1,4 @@
-# Whitepaper for "Microsoft Defender for SQL"
+# Azure SQL: セキュリティの脅威への対策ガイド
 <hr style="height:1px; background-color:#c0c0c0;">
 
 本ドキュメントでは、データ基盤、データベースで求められるセキュリティについて解説し、Microsoft Defender for SQL を使った効果的なセキュリティ対策について紹介しています。
